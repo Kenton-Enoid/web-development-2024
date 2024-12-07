@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.nav-link {
+    color: rgb(28, 28, 28);
+}
+
+.bg-body-secondary {
+    --bs-bg-opacity: 1;
+    background-color: rgb(241, 241, 241);
+}
+
+.news-cards {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card {
+    border: 2.5px solid black;
+}
+
+.latest-news {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 241, 241);
+}
+
+.news-item {
+    display: flex;
+    gap: 15px;
+    margin: 15px;
+}
+
+.latest-card img {
+    height: 250px;
+    width: 250px;
+}
+
+    
+
+
